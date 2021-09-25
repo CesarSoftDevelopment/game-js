@@ -1,0 +1,39 @@
+
+
+
+/* ============================ GAME AREA ======================================= */
+
+canvas {
+    margin-left: 200px;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+
+
+
+/* ============================ POSITIONS ======================================= */
+.position-arrowUp{
+    margin-left: 150px;
+}
+
+.position-arrows {
+    margin-left: 95px;
+}
+
+.position-arrowDown i {
+padding-bottom: 280px;
+padding-left: 150px;
+}
+
+.position {
+    margin-left: 370px;
+}
+
+.logoSize {
+    font-size: 55px;
+}
+
+/* ============================ POSITIONS ======================================= */
