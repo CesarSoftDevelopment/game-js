@@ -1,13 +1,18 @@
 
 
+
 // taking the body to show the game in html page
 bodyPage = document.querySelector("body");
+
+// component variable
+let myGamePiece;
 
 // function that plays an area of ​​the game
 bodyPage.onload = function startGame(){
     myGameArea.start();
     //instantiating the constructor function
-    myGamePiece = new component(30, 30, 'blue', 50, 50);
+    myGamePiece = new component(30, 30, "blue", 80, 80);
+    
 }
 
 // object to create game area
@@ -25,11 +30,10 @@ const myGameArea = {
 function component(width, height, color, x, y){
     this.width = width;
     this.height = height;
-    this.color = color;
     this.x = x;
     this.y = y;
     ctx = myGameArea.context;
-    ctx.fillStytle = color;
-    ctx.fillRect = (this.x, this.y, this.width, this.height);
+    ctx.fillStyle = color;
+    ctx.fillRect(this.x, this.y, this.width, this.height);
 
 }
